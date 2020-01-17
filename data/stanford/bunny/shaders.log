@@ -1,0 +1,34 @@
+VERTEX SHADER COMPILE INFO:
+
+
+
+FRAGMENT SHADER COMPILE INFO:
+
+0:47(5): error: if-statement condition must be scalar boolean
+0:51(12): error: could not implicitly convert operands to arithmetic operator
+0:51(6): error: operands to relational operators must be scalar and numeric
+0:51(6): error: if-statement condition must be scalar boolean
+0:52(2): error: assignment to read-only variable 'Cs'
+0:53(6): error: LHS of `&&' must be scalar boolean
+0:53(26): error: could not implicitly convert operands to arithmetic operator
+0:53(20): error: operands to relational operators must be scalar and numeric
+0:57(5): error: if-statement condition must be scalar boolean
+0:61(12): error: could not implicitly convert operands to arithmetic operator
+0:61(6): error: operands to relational operators must be scalar and numeric
+0:61(6): error: if-statement condition must be scalar boolean
+0:62(2): error: assignment to read-only variable 'Cs'
+0:63(6): error: LHS of `&&' must be scalar boolean
+0:63(26): error: could not implicitly convert operands to arithmetic operator
+0:63(20): error: operands to relational operators must be scalar and numeric
+0:67(5): error: if-statement condition must be scalar boolean
+0:71(12): error: could not implicitly convert operands to arithmetic operator
+0:71(6): error: operands to relational operators must be scalar and numeric
+0:71(6): error: if-statement condition must be scalar boolean
+0:72(2): error: assignment to read-only variable 'Cs'
+0:73(6): error: LHS of `&&' must be scalar boolean
+0:73(26): error: could not implicitly convert operands to arithmetic operator
+0:73(20): error: operands to relational operators must be scalar and numeric
+0:78(5): error: could not implicitly convert operands to relational operator
+0:78(5): error: if-statement condition must be scalar boolean
+
+
