@@ -1,0 +1,38 @@
+files:
+    source: ../../data/stanford/bunny/bunny.xyz
+    target: ../../data/stanford/bunny/bunny.xyz
+    output: ../../data/test/
+    save: false
+
+icp_parameters:
+    error_metric: levenberg_marquardt
+    m_estimator: null
+    estimate_normals:
+        max_nn: 20
+        search_radius: 5
+    rejection:
+        heuristics: null
+        max_distance: 0.03
+        trim: 0.2
+        iqr_factor: 1.0
+        kind: null
+    selection:
+        kind: null
+        samples: 0.9
+    weighting:
+        kind: null
+    lm_params:
+        lambda: 0.001
+        multiplier: 10
+        m_estimator: huber
+
+ransac_parameters:
+    max_validation: 500
+    max_iteration: 10000
+    tolerance: null
+    subset_size: 1
+    inlier_size: 1000
+    
+convergence_criteria: 
+    max_iteration: 50
+    relative_rmse: 1.0e-6

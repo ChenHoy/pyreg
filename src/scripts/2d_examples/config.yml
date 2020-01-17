@@ -1,0 +1,17 @@
+icp_parameters:
+    selection: 
+        kind: random
+        random: 0.8
+    rejection: 
+        kind: fixed
+        distance: 
+        fixed: 0.8
+    weighting:
+    error_metric: point_to_point
+    estimate_normals:
+        search_radius: 10
+        max_nn: 20
+    
+convergence_criteria: 
+        max_iteration: 50
+        relative_rmse: 0.000001
