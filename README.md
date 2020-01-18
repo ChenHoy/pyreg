@@ -1,7 +1,6 @@
----
-title: PyReg: A Point Cloud Registration Package for Python
+# PyReg: A Point Cloud Registration Package for Python
 author: Christian Homeyer
----
+
 # What is this package
 The pyreg registration package allows efficient registration of even larger 3D point clouds. It includes self written local registration algorithms (ICP, CPD) written entirely in Python and a collection of global registration algorithm from several backends in C++.  
 The background of the project was my master thesis.
