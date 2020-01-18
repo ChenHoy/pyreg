@@ -8,11 +8,11 @@ The background of the project was my master thesis.
 
 # Dependencies
 This package is not self contained and requires building the separate packages for:  
-- Mayavi (visualization)  
-- Super4PCS  
-- Go-ICP  
-- Open3D (visualization and essential functions)
-- Numerous python packages (Found in requirements.txt for pip)
+- Mayavi (visualization) https://github.com/enthought/mayavi 
+- Super4PCS https://github.com/STORM-IRIT/OpenGR
+- Go-ICP  https://github.com/yangjiaolong/Go-ICP
+- Open3D (visualization and essential functions) https://github.com/intel-isl/Open3D 
+- Numerous python packages (Found in future requirements.txt for pip)
 
 # What can be done
 The package allows several core functions:  
@@ -32,4 +32,10 @@ The package allows several core functions:
 - Downsampled datasets:
 	- Stanford bunny  
 	- Stanford dragon
+# TODO
+1. Code has not been revised and project may not be buildable!!! See how to build the other packages on the github pages before importing the python module.  
+2. Make requirements.txt file for pip. 
+3. Module is also not shippable as of now. Preparing a cmake build or a wheel would be nice
+4. Documentation could be improved.
+5. Some dependencies could be resolved via wrappers. There exists a cython wrapper for Go-ICP now.
 
