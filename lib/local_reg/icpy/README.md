@@ -1,6 +1,6 @@
 ---
 author: Christian Homeyer
-title: The **I**terative **C**lostest **P**oint - algorithm
+title: The Iterative Clostest Point - algorithm
 ---
 # What is this module
 This module contains the ICP registration algorithms used in the author's master thesis.  
